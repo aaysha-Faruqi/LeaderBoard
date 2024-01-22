@@ -1,0 +1,46 @@
+/* Apply purple border to the input form */
+h1{
+  text-align: center;
+  color: purple;
+}
+
+input[type="text"], input[type="number"] {
+  border: 2px solid purple;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  
+}
+
+form{
+text-align-last: center;
+}
+
+/* Style the table data in a card-like format */
+table{
+
+  width: 80%;
+  text-align: center;
+  margin-left: 150px;
+
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #b5b6ce;
+}
+
+/* Add box shadow to create a card-like effect */
+td {
+  box-shadow: 0 4px 8px 0 rgba(150, 125, 219, 0.2);
+  transition: 0.3s;
+}
+
+td:hover {
+  box-shadow: 0 8px 16px 0 rgba(112, 86, 184, 0.2);
+}
